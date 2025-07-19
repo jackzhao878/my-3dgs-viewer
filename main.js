@@ -746,7 +746,7 @@ async function main() {
     const url = new URL(
         // "nike.splat",
         // location.href,
-        params.get("url") || "model(1).splat",
+        params.get("url") || "mes.splat",
         "https://huggingface.co/Jack666f/3dgs_model/resolve/main/",
     );
     const req = await fetch(url, {
